@@ -1,0 +1,18 @@
+{
+  "topic_id": 172546,
+  "topic_title": "PYQ Haversine",
+  "posts": [
+    {
+      "topic_id": 172546,
+      "post_id": 618632,
+      "username": "Sagan",
+      "created_at": "2025-04-12T12:32:53.702Z",
+      "content": "Screenshot (883)1920×1080 368 KB\nScreenshot (884)1920×1080 134 KB\nScreenshot (885)1920×1080 315 KB\nScreenshot (886)1920×1080 308 KB\nThis question is in 2024 Dec22: IIT M FN EXAM QDD2\nCan anyone tell how to solve this?",
+      "post_number": 1,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/pyq-haversine/172546/1",
+      "image_description": "Here's a description of the image, focusing on the key elements and highlighted areas:\n\n**Overall Description:**\n\nThe image is a screenshot of a web browser window displaying an online quiz or exam interface. The platform seems to be called \"quizpractice.space\". The quiz is titled \"Practice TDS Questions: 2024\".  The window is split into two main sections.  On the left is a sidebar with exam details and a question selection menu. The right side displays the current question along with background information.\n\n**Key Parameters and Topics:**\n\n*   **Exam:** End Term Quiz, subject TDS, 40 total marks, question paper 2024 Dec22: IIT M FN EXAM QDD2\n*   **Mode:** Exam Mode (selected)\n*   **Question Navigation:** A menu of 40 questions, with question number 1 highlighted in green, indicating it is the current question.\n*   **Problem Domain:** Calculating distance between two geographical locations using the Haversine formula.\n*   **Student Interaction:** The question prompt includes a simulated conversation between a student and ChatGPT about how to use the Haversine formula.\n\n**Highlighted Areas and Why:**\n\n*   **\"Haversine formula\"** is highlighted in blue. This emphasizes the core concept/method being tested in the question.\n*   The text **\"between a student in TDS and ChatGPT\"** shows a use of AI to solve the TDS(Time Delay Spectrometry) problems.\n\nIn summary, the screenshot shows a student engaging in a TDS exam question related to the application of the Haversine formula, and how the student is using AI to find the solution.",
+      "reply_to_post_number": null
+    }
+  ],
+  "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/pyq-haversine/172546"
+}

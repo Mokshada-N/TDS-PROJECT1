@@ -1,0 +1,18 @@
+{
+  "topic_id": 171515,
+  "topic_title": "GA7: Peer Grading Clarification",
+  "posts": [
+    {
+      "topic_id": 171515,
+      "post_id": 614265,
+      "username": "22f2000644",
+      "created_at": "2025-04-01T13:11:54.500Z",
+      "content": "@carlton Sir, I want to clarify something about the peer grading process. Some of the files of the student assigned to me are not accessble and others are missing. How am I to grade each thing? From what I understand analysis must be graded based on the shared files but if im not able to access them what should I do? I think requesting view access might violate the spirit of the grading exercise.\nPlease help me out on what to do. Thanks.\nimage1756×1156 149 KB\nUpon checking further, in the assignment we were asked only to share access with se2002@study.iitm.ac.in . So I think all of us might have this issue. what do we do?\nimage1260×194 29.4 KB",
+      "post_number": 1,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga7-peer-grading-clarification/171515/1",
+      "image_description": "Here's a description of the image, including the highlighted parts and their significance:\n\n**Overall Description:**\n\nThe image displays the \"You need access\" screen in Google Sheets. This screen appears when a user attempts to access a Google Sheet for which they do not have the necessary permissions.\n\n**Key Elements and Parameters:**\n\n*   **Google Sheets Logo:** Present at the top left, indicating the application.\n*   **\"You need access\" Heading:** This is the primary message, indicating the user's current status.\n*   **Request Access Text:** This explains the situation and prompts the user to either request access or switch to an account that has access.\n*   **\"Learn More\" Link:** Provides additional information or instructions.\n*   **Message (Optional) Text Box:** Allows the user to include a message explaining why they need access.\n*   **\"Request Access\" Button:** Clicking this button sends a request to the owner of the Google Sheet.\n*   **\"You're signed in as\" Text and Email:** This indicates the Google account currently being used. In this case, it is 22f2000644@ds.study.iitm.ac.in.\n\n**Why Elements are Highlighted:**\n\nIn context, since there is not really a highlighting, I suspect you wanted to know about specific sections in the UI to notice:\n\n*   **\"You need access\" Heading:** It's prominent to immediately inform the user of the issue.\n*   **\"Request Access\" Button:** This is the primary action the user is expected to take to resolve the issue.\n*   **\"You're signed in as\" email:** Helps the user confirm if they're using the correct Google account.\n\n**Topics:**\n\nThe image relates to the following topics:\n\n*   **Google Sheets:** A web-based spreadsheet application.\n*   **Access Control:** Managing permissions and access to shared files.\n*   **User Interface (UI) Design:** The layout and presentation of the access request screen.\n*   **User Experience (UX):** Providing a clear and intuitive process for users to request access.\n\nIn essence, it's a UI snapshot of a permission request scenario within the Google Sheets environment.",
+      "reply_to_post_number": null
+    }
+  ],
+  "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga7-peer-grading-clarification/171515"
+}

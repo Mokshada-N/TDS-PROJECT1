@@ -1,0 +1,29 @@
+{
+  "topic_id": 172373,
+  "topic_title": "PYQ doubt",
+  "posts": [
+    {
+      "topic_id": 172373,
+      "post_id": 617911,
+      "username": "24f1001616",
+      "created_at": "2025-04-10T14:21:56.393Z",
+      "content": "image1141×678 102 KB\n@carlton sir plz review it\ni think the correct answer should be A",
+      "post_number": 1,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/pyq-doubt/172373/1",
+      "image_description": "Here's a concise description of the image, focusing on the key elements and highlighted aspects:\n\n**Image Description:**\n\nThe image presents a multiple-choice question (MCQ) from a test or quiz about identifying if a log entry's timestamp corresponds to a Saturday using Python's `datetime` library. The question asks: \"Which of the following methods is best for identifying if a log entry's timestamp corresponds to a Saturday?\"\n\n**Options and Highlighting:**\n\nFour options are provided, each consisting of a code snippet that checks a timestamp using different methods:\n\n1.  `timestamp.weekday() == 5` - Marked with a red \"X\", indicating it's incorrect. `weekday()` returns a number, where Monday is 0 and Sunday is 6.  5 represents Friday, not Saturday.\n2.  `timestamp.weekday() == 6` - Marked with a green checkmark, indicating the correct answer.  6 corresponds to Saturday in Python's `weekday()` method.\n3.  `timestamp.strftime('%A') == 'Saturday'` - Marked with a red \"X\", indicating it's incorrect, as `strftime` returns String for day name\n4.  `timestamp.dayname() == 'Saturday'` - Marked with a red \"X\", indicating it's incorrect\n\n**Key Parameters/Topics:**\n\n*   **Timestamp:** Represents a point in time.\n*   **`datetime` library:**  A Python library for working with dates and times.\n*   **`weekday()` method:**  Returns the day of the week as an integer, where Monday is 0 and Sunday is 6.\n*   **`strftime()` method:** Formats a datetime object into a string based on a specified format.\n*   **String method `dayname()`:**  Returns the day of the week as a string.\n*   **Identifying Day of Week:** The core concept being tested is how to programmatically determine the day of the week from a timestamp object.\n",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 172373,
+      "post_id": 617921,
+      "username": "carlton",
+      "created_at": "2025-04-10T14:50:28.002Z",
+      "content": "yes saturday is 5 when using weekday ()",
+      "post_number": 2,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/pyq-doubt/172373/2",
+      "image_description": null,
+      "reply_to_post_number": null
+    }
+  ],
+  "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/pyq-doubt/172373"
+}

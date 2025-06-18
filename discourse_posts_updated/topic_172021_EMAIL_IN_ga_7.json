@@ -1,0 +1,29 @@
+{
+  "topic_id": 172021,
+  "topic_title": "EMAIL IN ga-7",
+  "posts": [
+    {
+      "topic_id": 172021,
+      "post_id": 616499,
+      "username": "24f1001616",
+      "created_at": "2025-04-07T08:50:43.355Z",
+      "content": "@carlton sir in google form it is written to submit email address of peer but the mail TDS team has sent has 3 drive links .so we have to submit drive links or like create the email by adding “@ds.study.iitm.ac.in” after the username",
+      "post_number": 1,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/email-in-ga-7/172021/1",
+      "image_description": null,
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 172021,
+      "post_id": 616529,
+      "username": "carlton",
+      "created_at": "2025-04-07T10:13:37.054Z",
+      "content": "If you actually open the drive link you will see the student email. You have to use that email for submitting the form.",
+      "post_number": 2,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/email-in-ga-7/172021/2",
+      "image_description": null,
+      "reply_to_post_number": null
+    }
+  ],
+  "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/email-in-ga-7/172021"
+}

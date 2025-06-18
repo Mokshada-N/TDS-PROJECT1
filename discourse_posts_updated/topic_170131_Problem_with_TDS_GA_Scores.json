@@ -1,0 +1,31 @@
+{
+  "topic_id": 170131,
+  "topic_title": "Problem with TDS GA Scores",
+  "posts": [
+    {
+      "topic_id": 170131,
+      "post_id": 607317,
+      "username": "22f3001561",
+      "created_at": "2025-03-16T18:46:29.863Z",
+      "content": "In every TDS assignment after the first, I have not seen a submit button in the assignment page so I could not submit it there( I see it in the sanand portal and submit it there)\nNow, my assignment score for all assignments (2,3,4,5) shows 0\nI am attaching SS of my assignment-5 page to show there was no submit button available there\nI had raised this as a ticket in the Support desk(21/Feb) in the past as discourse was not available to me at that time, but this didn’t get resolved. I saw a similar older thread where it was mentioned that this is not something to worry about but now it is showing in the portal that I am not allowed to take the End Term Exam. What can be done for this?\nSS1895×1010 167 KB",
+      "post_number": 1,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/problem-with-tds-ga-scores/170131/1",
+      "image_description": "Here's a precise description of the image, focusing on key details and highlighted elements:\n\n**Overall Description:**\n\nThe image is a screenshot of an online assignment page, likely from a course management system. It shows the interface for \"Graded Assignment 5\" within the context of an IIT Madras course (\"Jan 2025-TDS\").  The page provides instructions, submission details, and troubleshooting tips for the assignment. A module menu on the left allows navigation through the course content.\n\n**Key Elements & Highlights:**\n\n*   **Title:** \"Graded Assignment 5\" - Indicates the specific assignment the user is viewing.\n\n*   **Due Date (Highlighted in red):** \"Due date for this assignment: 2025-02-21, 23:59 IST.\" The red highlight emphasizes the deadline's importance, urging the student to pay attention to it.\n\n*   **Submission Instructions:**  Specifies that multiple submissions are allowed before the due date and that the *final* submission will be graded.\n\n*   **Troubleshooting Tips:** A list of common issues preventing access to the assignment:\n\n    *   Ad blockers interfering\n    *   Cookie blocking issues\n    *   Javascript requirements\n    *   Recommended browser (Chrome)\n    *   Browser extensions causing conflicts\n    *   Overly aggressive anti-virus software\n\n*   **Important Requirement (Highlighted):** \"You MUST use your Student Id (eg. 22f3xxxxxx@ds.study.iitm.ac.in) to do the Graded Assignment, otherwise your score will not be considered for evaluation.\" The \"MUST\" along with highlighting implies this is a critical requirement, and failing to adhere will result in no grade. The example Student ID format is also shown.\n\n*   **Assignment Link:** A URL to the assignment itself:  `https://exam.sanand.workers.dev/tds-2025-01-ga5`.\n\n*   **Sidebar Navigation:** The left sidebar displays the modules within the course:\n\n    *   Module 2: Deployment Tools\n    *   Module 3: Large Language Models\n    *   Project 1\n    *   Module 4: Data Sourcing\n    *   Module 5: Data Preparation\n    *   Graded Assignment 5 (Currently selected)\n    *   Learning Feedback\n\n**Important Parameters and Topics:**\n\n*   **Course:** IIT Madras (TDS Jan 2025)\n*   **Assignment:** Graded Assignment 5\n*   **Due Date:** February 21, 2025, at 23:59 IST\n*   **Access Requirements:** Browser compatibility, JavaScript, cookies.\n*   **Student ID:** Mandatory for grading.\n*   **URL:** [seek.onlinedegree.iitm.ac.in/courses/ns\\_25t1\\_se2002?id=22&type=assignment&tab=courses&unitid=20](http://seek.onlinedegree.iitm.ac.in/courses/ns_25t1_se2002?id=22&type=assignment&tab=courses&unitid=20)",
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/problem-with-tds-ga-scores/170131",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 170131,
+      "post_id": 607332,
+      "username": "carlton",
+      "created_at": "2025-03-17T03:38:14.468Z",
+      "content": "@22f3001561 GA5 like all the prior GAs for TDS Jan 25 term were all to be submitted through the graded assignment page. Which is in the link provided (it is actually in the screen shot you have provided).\nAll the previous GA 1 through 4 were also exactly the same.\nWe have no evidence you ever submitted any of the other GAs except GA1.\nKind regards",
+      "post_number": 2,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/problem-with-tds-ga-scores/170131/2",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/problem-with-tds-ga-scores/170131",
+      "reply_to_post_number": null
+    }
+  ],
+  "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/problem-with-tds-ga-scores/170131"
+}

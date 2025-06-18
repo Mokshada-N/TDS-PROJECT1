@@ -1,0 +1,62 @@
+{
+  "topic_id": 171672,
+  "topic_title": "Why Failed?",
+  "posts": [
+    {
+      "topic_id": 171672,
+      "post_id": 614919,
+      "username": "virajpitale",
+      "created_at": "2025-04-03T10:44:03.443Z",
+      "content": "Screenshot 2025-04-03 1613021268×533 16.3 KB\nvirajpitale/tds-project1\non github you can clearly see i added mit license still it is showing failed",
+      "post_number": 1,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/why-failed/171672/1",
+      "image_description": "Here's a precise description of the image, including highlighted elements and their significance:\n\n**Overall Description:**\n\nThe image is an automated evaluation of Project 1 prerequisites for a learner.  It outlines the necessary conditions for project submission and displays the results of automated checks.\n\n**Key Elements and Parameters:**\n\n*   **\"Dear Learner\"**: A generic salutation indicating the personalized nature of the feedback.\n*   **Project 1 Requirements:** The image lists five prerequisites that a project must fulfill to be considered for evaluation:\n    1.  GitHub repository exists and is publicly accessible.\n    2.  GitHub repository has a LICENSE file with the MIT license.\n    3.  GitHub repository has a valid Dockerfile.\n    4.  Docker image is publicly accessible and runs via `podman run`.\n    5.  Docker image uses the same Dockerfile as in the GitHub repository.\n*   **TDS Project 1: Evaluation**: Highlighted in yellow, this is a link to a page with more detailed information on the project's evaluation criteria.\n*   **Evaluation Results:**  Each prerequisite is followed by a \"PASS\" or \"FAIL\" indicator:\n    *   Docker image present and public: PASS\n    *   GitHub repo present and public: PASS\n    *   Dockerfile present: PASS\n    *   MIT license present: FAIL\n*   **\"Dockerfile\"**: Displayed in bold, the term refers to the configuration file used to create Docker images and that term is very important in the content.\n*   **Prerequisites: FAIL:**  A summary statement indicating that the overall prerequisites have not been met because at least one check has failed.\n*   **Project 1 Score: 0:** The project score is zero, likely because the prerequisites are not met.\n\n**Significance:**\n\nThe image provides feedback on a student's project submission. The highlighting emphasizes where to find more detailed information. The \"PASS\" and \"FAIL\" indicators show which requirements are met and which ones need attention. The failing MIT license check leads to a failure of the overall prerequisites and a score of zero, indicating the project cannot be evaluated in its current state. The project needs to include the MIT license.",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 171672,
+      "post_id": 614922,
+      "username": "Jivraj",
+      "created_at": "2025-04-03T10:47:22.621Z",
+      "content": "image1480×950 140 KB\nI checked your github repo MIT License file is named as Licenese.md but standard naming for License is LICENSE or LICENSE.md (with all caps).",
+      "post_number": 2,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/why-failed/171672/2",
+      "image_description": "Here's a description of the image, including the highlights and their purpose:\n\n**Overall Image Description:**\n\nThe image is a screenshot of a GitHub Docs page, specifically detailing how to add a license to a repository. The page presents a step-by-step guide with numbered instructions. It's likely part of a larger article on setting up a project for healthy contributions.\n\n**Key Elements and Highlights:**\n\n1.  **The \"+\" icon is highlighted** (orange rectangle): This indicates the user is to click the plus icon to add a file\n2.  **The input field for \"LICENSE\" is present:** (blue box): This highlights the location where the user needs to type in the license file name, emphasizing the correct naming convention (either `LICENSE` or `LICENSE.md` in all caps), which ensures the license is properly recognized by GitHub.\n3.  **The \"Choose a license template\" button is highlighted** (orange rectangle): This call-to-action button indicates where the user needs to click after entering the license file name. The button provides access to a selection of common open-source licenses.\n\n**The Purpose of the Page:**\n\nThe page serves as a tutorial, guiding users through the process of adding a license to their GitHub repository. The numbered steps and highlights direct the user to the essential actions they need to take.\n The aim is to make it easy for project creators to add licenses to their repos.",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 171672,
+      "post_id": 614931,
+      "username": "virajpitale",
+      "created_at": "2025-04-03T11:00:47.042Z",
+      "content": "So, should I edit the filename now, or will you count it as missing?",
+      "post_number": 3,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/why-failed/171672/3",
+      "image_description": null,
+      "reply_to_post_number": 2
+    },
+    {
+      "topic_id": 171672,
+      "post_id": 614963,
+      "username": "virajpitale",
+      "created_at": "2025-04-03T12:27:21.792Z",
+      "content": "@Jivraj please reply",
+      "post_number": 4,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/why-failed/171672/4",
+      "image_description": null,
+      "reply_to_post_number": 3
+    },
+    {
+      "topic_id": 171672,
+      "post_id": 616586,
+      "username": "virajpitale",
+      "created_at": "2025-04-07T12:15:01.305Z",
+      "content": "Screenshot 2025-04-07 1742561710×518 33 KB\nI submitted the project within the deadline, and I ensured that all requirements were fulfilled, including correctly adding the MIT License file. The license file was named properly and contained the correct content.\nHowever, I received a message stating that the MIT License was not present, and that the prerequisites were not completed — resulting in a failed status. This is surprising and feels unfair, as I’ve double-checked my submission and confirmed that everything, including the license file, is in place and named correctly.\nHere is my GitHub repo for your reference: GitHub - virajpitale/tds-project1\nI kindly request a re-evaluation of my submission, as I believe I’ve met all the required criteria. I would really appreciate your time in looking into this matter again.\nThank you for your understanding.\n@Jivraj",
+      "post_number": 5,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/why-failed/171672/5",
+      "image_description": "Here's a concise description of the image, incorporating important parameters and topics:\n\n**Description:**\n\nThe image shows a snippet from a version control history, likely from a platform like GitHub. It displays a series of commits chronologically (most recent at the top) to a repository. The commits are authored/committed by \"virajpitale\".\n\n**Key Parameters and Topics:**\n\n*   **Commit History:** The core of the image shows a log of changes made to the project over time.\n*   **Author:** All commits are associated with the user \"virajpitale.\"\n*   **Timestamps:** The commits span from February 15, 2025, to April 3, 2025, indicating a period of active development.\n*   **Commit Messages:** The messages provide a brief description of each change.\n    *   \"Rename License.md to LICENSE.md\"\n    *   \"Update License.md\"\n    *   \"Update and rename README.md to License.md\"\n    *   \"project\"\n*   **Verification:** Each Commit is marked as verified.\n*   **Commit Hashes:** Each commit has an associated short commit hash (e.g., \"d62d2ee\").\n*   **File Manipulation:** The commit messages suggest file renaming and content updates.\n*   **License File:** There is clear intent to create or modify a License for the project.\n*   **README File:** There has been some focus on README file for the project.\n\n**Why are some elements highlighted?**\n\nWithout seeing the specific highlighting in the image, I can infer some possibilities:\n\n*   **Verification mark:** The \"Verified\" badges likely highlight the fact that these commits are signed and can be trusted, confirming the author's identity. This is a security feature.\n*   **Specific commit hashes:** Highlighting a commit hash might indicate that this commit has been specifically looked at or is of significance in the context where the image is used.\n*   **Commit titles:** Highlighting commit titles, particularly with different styles, helps quickly to locate relevant information.\n*   **Recent commits:** Highlighting the most recent commits (like the one from April 3) might draw attention to the latest changes in the project.\n*   **Modified Filenames:** There may be highlighting to indicate filenames that have been created, modified, or renamed.",
+      "reply_to_post_number": 2
+    }
+  ],
+  "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/why-failed/171672"
+}
