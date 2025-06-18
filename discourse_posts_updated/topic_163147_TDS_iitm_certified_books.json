@@ -1,0 +1,31 @@
+{
+  "topic_id": 163147,
+  "topic_title": "TDS iitm certified books",
+  "posts": [
+    {
+      "topic_id": 163147,
+      "post_id": 579338,
+      "username": "Divya1",
+      "created_at": "2025-01-13T15:40:50.279Z",
+      "content": "Can anyone forward the specified links of the books(iitm certified(logo)) or pdf’s for preparation?",
+      "post_number": 1,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/tds-iitm-certified-books/163147/1",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/tds-iitm-certified-books/163147",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 163147,
+      "post_id": 579586,
+      "username": "s.anand",
+      "created_at": "2025-01-14T09:48:43.870Z",
+      "content": "@Divya1 there are no IITM certified books nor PDFs for Tools in Data Science. The site https://tds.s-anand.net/ is the reference.\nWe update the content regularly. You might want to track the changes for recent updates.",
+      "post_number": 2,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/tds-iitm-certified-books/163147/2",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/tds-iitm-certified-books/163147",
+      "reply_to_post_number": null
+    }
+  ],
+  "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/tds-iitm-certified-books/163147"
+}

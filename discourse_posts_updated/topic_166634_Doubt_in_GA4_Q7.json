@@ -1,0 +1,103 @@
+{
+  "topic_id": 166634,
+  "topic_title": "Doubt in GA4 Q7",
+  "posts": [
+    {
+      "topic_id": 166634,
+      "post_id": 592585,
+      "username": "Sakshi6479",
+      "created_at": "2025-02-09T12:11:34.989Z",
+      "content": "Sir,\nI am not able to understand how to solve Q7 in GA4. kindly guide me how to solve this question or provide some tutorial video to complete it.\nAs the deadline is of today please provide the tutorial video for this question soon.\n@Saransh_Saini , @Jivraj , @carlton",
+      "post_number": 1,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/doubt-in-ga4-q7/166634/1",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/doubt-in-ga4-q7/166634",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 166634,
+      "post_id": 592816,
+      "username": "21f3000745",
+      "created_at": "2025-02-09T15:17:40.710Z",
+      "content": "Just create the url with query parameters city and followers.",
+      "post_number": 2,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/doubt-in-ga4-q7/166634/2",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/doubt-in-ga4-q7/166634",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 166634,
+      "post_id": 592972,
+      "username": "Sakshi6479",
+      "created_at": "2025-02-09T16:30:09.582Z",
+      "content": "Can you please elaborate a little bit what should be the steps ?",
+      "post_number": 3,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/doubt-in-ga4-q7/166634/3",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/doubt-in-ga4-q7/166634",
+      "reply_to_post_number": 2
+    },
+    {
+      "topic_id": 166634,
+      "post_id": 592990,
+      "username": "23f1001301",
+      "created_at": "2025-02-09T16:40:15.128Z",
+      "content": "Connect to the GitHub API-  it lets you fetch user data automatically(go to github developer settings ->personal acceess tokens->tokens(classic)\nSearch for Users with criteria mentioned in your question\nWe organize the list from newest to oldest, making it easy to spot the freshest account.",
+      "post_number": 4,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/doubt-in-ga4-q7/166634/4",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/doubt-in-ga4-q7/166634",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 166634,
+      "post_id": 593003,
+      "username": "Sakshi6479",
+      "created_at": "2025-02-09T16:45:10.685Z",
+      "content": "Ok thank you for the help.",
+      "post_number": 5,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/doubt-in-ga4-q7/166634/5",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/doubt-in-ga4-q7/166634",
+      "reply_to_post_number": 4
+    },
+    {
+      "topic_id": 166634,
+      "post_id": 593026,
+      "username": "Saransh_Saini",
+      "created_at": "2025-02-09T16:54:46.677Z",
+      "content": "Hi Sakshi,\nIt seems you have already got your answers. Kindly mark the solution these two people have given, so that anyone facing the same issue would be able to get to it easily.",
+      "post_number": 6,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/doubt-in-ga4-q7/166634/6",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/doubt-in-ga4-q7/166634",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 166634,
+      "post_id": 593223,
+      "username": "Sakshi6479",
+      "created_at": "2025-02-09T18:11:45.716Z",
+      "content": "Sir I am having trouble in q8 also whenever I am pushing commit in git hub it was showing in GitHub repository but it is not working in git hub actions.\n173912467233449595293011525167201920×1440 174 KB",
+      "post_number": 7,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/doubt-in-ga4-q7/166634/7",
+      "image_description": "Here's a concise description of the image, incorporating the key elements and highlighted aspects:\n\n**Description:**\n\nThe image shows a laptop screen displaying the \"Actions\" tab within a GitHub repository owned by \"Sakshi6749\" (likely the username or organization).  The highlighted area is the \"All workflows\" section, which shows a list of workflow runs associated with the repository. Specifically, it shows the results of a workflow called \"Daily Commit\". There are three runs of this workflow displayed: \"second time (Daily Commit #3)\", \"Daily Commit #2\", and \"Daily Commit #1\".  The branch associated with these commits is \"main\". The time elapsed since the commit along with the status of these commits is shown against each of the commit. The left sidebar shows navigation options like \"Caches\", \"Attestations\", \"Runners\", \"Usage metrics\", and \"Performance metrics.\" The page is accessed via the URL github.com/Sakshi6749/my-repo/actions. The laptop is an ASUS Zenbook, visible by the branding at the bottom.\n",
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/doubt-in-ga4-q7/166634",
+      "reply_to_post_number": 6
+    },
+    {
+      "topic_id": 166634,
+      "post_id": 593227,
+      "username": "Sakshi6479",
+      "created_at": "2025-02-09T18:12:58.595Z",
+      "content": "173912475848943145994464774695661920×1440 170 KB\nIt is working in repo",
+      "post_number": 8,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/doubt-in-ga4-q7/166634/8",
+      "image_description": "Here's a concise description of the image, including details about the highlighted aspects:\n\n**Image Description:**\n\nThe image is a photograph of an ASUS Zenbook laptop screen displaying a GitHub repository named \"my-repo\" owned by user \"Sakshi6749\".  The repository is public.\n\n**Key Aspects Shown on Screen:**\n\n*   **GitHub Interface:** The standard GitHub interface is visible, showing the Code, Issues, Pull Requests, Actions, Projects, Wiki, Security, Insights and Settings tabs.\n*   **Repository Details:** The repository's main branch is selected.  A file list is shown, including the root directory, the `.github/workflows` directory, and a `README.md` file.  Recent commit information is displayed (\"third time,\" \"changes done\") with timestamps.\n*   **About Section:** The \"About\" section on the right indicates that no description, website, or topics have been provided for the repository. The Readme and Activity are highlighted. The repository has 0 stars, 1 watcher, and 0 forks.\n*   **Code Button:** A green \"<> Code\" button is displayed, allowing the user to clone or download the repository.\n\n**Highlights and Their Significance:**\n\n*  The \"Readme\" and \"Activity\" in the \"About\" section of the GitHub repository are highlighted, likely indicating these are common and important areas to configure and monitor within a GitHub project. README provides essential information about the project, and Activity tracks commit history and issues.\n\n**Additional Details:**\n\n*   The laptop's keyboard is partially visible.\n*   The taskbar shows icons for various applications, including a search bar.\n*   The time and date are displayed in the bottom right corner of the screen, along with the language setting (ENG).\n",
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/doubt-in-ga4-q7/166634",
+      "reply_to_post_number": 7
+    }
+  ],
+  "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/doubt-in-ga4-q7/166634"
+}

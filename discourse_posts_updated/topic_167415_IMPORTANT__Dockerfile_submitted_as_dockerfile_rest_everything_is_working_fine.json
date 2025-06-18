@@ -1,0 +1,67 @@
+{
+  "topic_id": 167415,
+  "topic_title": "IMPORTANT: Dockerfile submitted as dockerfile rest everything is working fine",
+  "posts": [
+    {
+      "topic_id": 167415,
+      "post_id": 596106,
+      "username": "nayonika",
+      "created_at": "2025-02-16T15:34:00.030Z",
+      "content": "@carlton @Jivraj @Saransh_Saini\nI got a mail saying my Dockerfile is missing. However I have a dockerfile already in my github repository. Is it an issue with the spelling of dockerfile since I have submitted it in all small case as ‘dockerfile’. It was showing the score when I checked with the evaluate.py that was provided by iitm.\nShall I just change the name of the file from ‘dockerfile’ to ‘Dockerfile’ in github repository of mine or is there anything else that is needed to detect the Dockerfile?",
+      "post_number": 1,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/important-dockerfile-submitted-as-dockerfile-rest-everything-is-working-fine/167415/1",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/important-dockerfile-submitted-as-dockerfile-rest-everything-is-working-fine/167415",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 167415,
+      "post_id": 596126,
+      "username": "Saransh_Saini",
+      "created_at": "2025-02-16T16:22:25.231Z",
+      "content": "The name of the Dockerfile should be “Dockerfile” indeed, more over check other sections of your submission like\n\nIs the GitHub repo public?\nDoes it have an MIT license?\nDoes it have a DockerFile?\nIs the Docker image accessible?\n",
+      "post_number": 2,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/important-dockerfile-submitted-as-dockerfile-rest-everything-is-working-fine/167415/2",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/important-dockerfile-submitted-as-dockerfile-rest-everything-is-working-fine/167415",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 167415,
+      "post_id": 596127,
+      "username": "nayonika",
+      "created_at": "2025-02-16T16:23:55.760Z",
+      "content": "Oh ok made the changes in Github. I hope submitting again is not required since the links and names are same.",
+      "post_number": 3,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/important-dockerfile-submitted-as-dockerfile-rest-everything-is-working-fine/167415/3",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/important-dockerfile-submitted-as-dockerfile-rest-everything-is-working-fine/167415",
+      "reply_to_post_number": 2
+    },
+    {
+      "topic_id": 167415,
+      "post_id": 596260,
+      "username": "22f3000585",
+      "created_at": "2025-02-17T07:34:13.842Z",
+      "content": "\nSir, i got this mail. I have checked that the repo is public and already has a Dockerfile.\nI have renamed the ‘LICENSE’ file as ‘MIT LICENSE’.",
+      "post_number": 4,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/important-dockerfile-submitted-as-dockerfile-rest-everything-is-working-fine/167415/4",
+      "image_description": "The image contains text indicating that certain checklist criteria have not been met. It states: \"No such repo; No 'MIT' in LICENSE; No Dockerfile.\"\n\nThis suggests that a repository is missing, the project doesn't include the MIT license, and there is no Dockerfile.\n\nThe text also includes a reminder that \"Please ensure that your submission passes the above checklist for it to be even considered for scoring.\" This implies that the aforementioned criteria are essential for a submission to be evaluated.",
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/important-dockerfile-submitted-as-dockerfile-rest-everything-is-working-fine/167415",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 167415,
+      "post_id": 596640,
+      "username": "satviksawhney",
+      "created_at": "2025-02-18T08:30:13.921Z",
+      "content": "Sir, please consider it we have spent a lot of time, in my case just the d in Dockerfile was small that too on remote repository. On my local repository it was Dockerfile only I even have a published docker image as verified by you autated script only. The name of the file on remote repository did not change even after commit it through my local repo, once I read the mail in morning it was only then I realised it wasn’t changed on GitHub repo.\nSir I understand the deadline has passed and I am not asking for a resubmission, I am just asking to consider the already submitted work, just that. It would be really helpful. I just have one commit on my repo that too “Rename dockerfile to Dokerfile” . Sir please attest consider what we have already submitted. I have made no changes as you can verify it too.\nSir it is a humble request to please consider it.\nWarm Regards,\nSatvik Sawhney\n23f2003680\nScreenshot 2025-02-18 at 1.53.10 PM1889×467 54 KB",
+      "post_number": 6,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/important-dockerfile-submitted-as-dockerfile-rest-everything-is-working-fine/167415/6",
+      "image_description": "Here's a precise description of the image, incorporating the key information:\n\nThe image shows a list of files and directories in a code repository, likely viewed in a GUI like GitHub or GitLab. It's a dark theme. Key details:\n\n*   **Folders:** There are three folders: \"Business\", \"Operations\", and \"app\". The \"Business\" folder was last updated \"2 days ago\" and the update was described as \"Reconfigured taskB8 taskB9 taskB10\". The \"Operations\" folder was last updated \"2 days ago\" and the update was described as \"Reconfigured taskA8 taskA9 taskA10\". The \"app\" folder was last updated \"2 days ago\" and the update was described as \"Updated Dockerfile and requirements.txt\"\n*   **Files:** There are three files listed: \"Dockerfile\", \"LICENSE\", and \"README.md\". The \"Dockerfile\" was last updated \"yesterday\" and the update was described as \"Rename dockerfile to Dockerfile\". The \"LICENSE\" file (MIT License) and \"README.md\" (Project Structure) were last updated \"3 days ago\".\n\n**Highlights:**\n*   *Files* The main parameters here are the files and folders listed in the image and the time when they were last updated.",
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/important-dockerfile-submitted-as-dockerfile-rest-everything-is-working-fine/167415",
+      "reply_to_post_number": null
+    }
+  ],
+  "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/important-dockerfile-submitted-as-dockerfile-rest-everything-is-working-fine/167415"
+}

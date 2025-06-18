@@ -1,0 +1,79 @@
+{
+  "topic_id": 169045,
+  "topic_title": "Project 2 - TDS Solver - Shared Data Pool",
+  "posts": [
+    {
+      "topic_id": 169045,
+      "post_id": 602891,
+      "username": "23f1002382",
+      "created_at": "2025-03-03T07:17:32.847Z",
+      "content": "Project 2 - TDS Solver - Discussion Thread\nCreating this Thread to share answers and questions from your respective assignments\nWhy? \nIf we can Train the LLM with these Questions already, we can easily do well?\nToo many Questions for LLM \nTrue we can use embeddings, map that stored in-system dictionary and use relevant questions from in-system data to send as context with answer\nWhat We need from YOU 🫵🏽\nGet to scraping your respective Graded Assignments and post the it?\nHow?\n\nIf answers are saved, Just Print (Ctrl+P) and save pdf, not really if this would work\nIf you had saved code for each question, send the saved code and with a docstring as the question , This would be useful \n\nWhere?\n\n\ngithub.com/ANdIeCOOl/TDS-Project2-QuestionBank\n\n\nREADME.md\n\nmain\n\n# TDS-Project2-QuestionBank\nQuestion Bank for all TDS assignments\n\n# Requested format\n## Student Assignments Directory Structure\n\nEach student has a folder named with their roll number. Inside each student's folder, there are multiple assignment folders (`Assignment_X`). Each assignment contains:\n- A `.txt` file with the question statement.\n- A corresponding `.py`, `.sh`, or `.js` file for the solution.\n\n### Example Directory Structure\nRollNo_12345/\n├── Assignment_1/\n│   ├── Q1.txt    # Question for Q1\n│   ├── Q1.py     # Solution in Python\n│   ├── Q2.txt    # Question for Q2\n│   ├── Q2.sh     # Solution in Bash\n│   ├── Q3.txt    # Question for Q3\n│   ├── Q3.js     # Solution in JavaScript\n├── Assignment_2/\n\n\n\n\n  This file has been truncated. show original\n\n\n\n\n\nPlease note, Please send the code it would make the LLM more idk “better”\nCheers,\nAndrew out. \n@all",
+      "post_number": 1,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-shared-data-pool/169045/1",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-shared-data-pool/169045",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 169045,
+      "post_id": 602892,
+      "username": "23f1002382",
+      "created_at": "2025-03-03T07:20:38.141Z",
+      "content": "This time I’ll create a functioning script way before deadline for everyone to use .\n",
+      "post_number": 2,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-shared-data-pool/169045/2",
+      "image_description": "Here's a description of the image:\n\nThe image displays the Jolly Roger of the Straw Hat Pirates from the anime series One Piece.  It features a black flag waving against a partly cloudy blue sky. The flag is emblazoned with a white skull and crossbones, where the skull is wearing a straw hat with a red band. This hat is significant, as it is Monkey D. Luffy's signature hat and symbol of the crew. The hat on the skull distinctly marks this Jolly Roger as belonging to Luffy's crew. The flag is attached to a wooden mast, visible to the left of the frame. The overall style is cartoonish and clearly anime-inspired.",
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-shared-data-pool/169045",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 169045,
+      "post_id": 603007,
+      "username": "Jivraj",
+      "created_at": "2025-03-03T11:21:09.094Z",
+      "content": "Hi @23f1002382\nGreat initiative, will be happy to see lot of PR’s on your repo.",
+      "post_number": 3,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-shared-data-pool/169045/3",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-shared-data-pool/169045",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 169045,
+      "post_id": 603030,
+      "username": "23f1002382",
+      "created_at": "2025-03-03T11:45:57.715Z",
+      "content": "\n\n\n Jivraj:\n\ne, will be happy to see lot of PR’s on your re\n\n\nWill \nHopefully \n…",
+      "post_number": 4,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-shared-data-pool/169045/4",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-shared-data-pool/169045",
+      "reply_to_post_number": 3
+    },
+    {
+      "topic_id": 169045,
+      "post_id": 603343,
+      "username": "23f1003186",
+      "created_at": "2025-03-04T08:58:05.322Z",
+      "content": "Already did a PR although it was a minor formatting one xDD",
+      "post_number": 6,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-shared-data-pool/169045/6",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-shared-data-pool/169045",
+      "reply_to_post_number": 3
+    },
+    {
+      "topic_id": 169045,
+      "post_id": 603352,
+      "username": "23f1002382",
+      "created_at": "2025-03-04T09:29:48.657Z",
+      "content": "yeah thanks that helped a lot actually",
+      "post_number": 7,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-shared-data-pool/169045/7",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-shared-data-pool/169045",
+      "reply_to_post_number": 6
+    }
+  ],
+  "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-shared-data-pool/169045"
+}

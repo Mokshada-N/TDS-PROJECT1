@@ -1,0 +1,91 @@
+{
+  "topic_id": 167471,
+  "topic_title": "Project 1 Submission Marked as FAIL Despite Having Dockerfile & Image",
+  "posts": [
+    {
+      "topic_id": 167471,
+      "post_id": 596311,
+      "username": "21f3002647",
+      "created_at": "2025-02-17T10:07:56.783Z",
+      "content": "Dear TDS Team,\nI have verified my submission, and my repository does include a Dockerfile, and the Docker image is accessible on DockerHub. Please find the attached screenshot as proof. Kindly review my submission again and let me know if any further action is needed.\nLooking forward to your confirmation.\nBest regards,\nArnav Mehta\n(21f3002647)\nimage250×534 3.92 KB\nimage713×238 11 KB",
+      "post_number": 1,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-submission-marked-as-fail-despite-having-dockerfile-image/167471/1",
+      "image_description": "The image shows a directory structure, likely for a software project related to Large Language Models (LLMs).\n\n*   **Folders:**\n    *   `..`: Represents the parent directory.\n    *   `LLM_PROJECT1`: This suggests the main project folder, named \"LLM\\_PROJECT1\".\n    *   `__pycache__`: This is a Python-generated directory for storing compiled bytecode files, which can speed up script execution.\n\n*   **Files:**\n    *   `Dockerfile`: This file is used for defining the environment and configurations for creating a Docker container. It allows to create a consistent environment across different machines or deployment stages.\n    *   `LICENSE`: This file specifies the licensing terms for the project's code.\n    *   `app.py`: The main application logic. Often used to start and control processes.\n    *   `datagen.py`: This likely handles the generation of data, possibly used for training or testing the LLM.\n    *   `evaluate.py`: A script for evaluating the performance of the LLM.\n    *   `requirements.txt`: This file lists the Python packages and their versions required to run the project, it is useful for creating a reproducible environment.\n    *   `tasksA.py` and `tasksB.py`: Suggests modularization of specific tasks related to the LLM project.\n\nIn summary, this structure points to a Python-based LLM project, potentially containerized with Docker, that includes data generation, evaluation, and a main application component. The modular structure and presence of a Dockerfile indicate a well-organized software development workflow.",
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-submission-marked-as-fail-despite-having-dockerfile-image/167471",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 167471,
+      "post_id": 596337,
+      "username": "21f3002647",
+      "created_at": "2025-02-17T12:30:15.244Z",
+      "content": "@Saransh_Saini sir what should i do?",
+      "post_number": 2,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-submission-marked-as-fail-despite-having-dockerfile-image/167471/2",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-submission-marked-as-fail-despite-having-dockerfile-image/167471",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 167471,
+      "post_id": 596404,
+      "username": "Saransh_Saini",
+      "created_at": "2025-02-17T15:43:39.614Z",
+      "content": "@carlton Kindly have a look into this.",
+      "post_number": 3,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-submission-marked-as-fail-despite-having-dockerfile-image/167471/3",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-submission-marked-as-fail-despite-having-dockerfile-image/167471",
+      "reply_to_post_number": 2
+    },
+    {
+      "topic_id": 167471,
+      "post_id": 596467,
+      "username": "satviksawhney",
+      "created_at": "2025-02-18T00:48:03.881Z",
+      "content": "Good Morning Sir,\nSir even I am facing a similar issue, even though sanity check for docker image on docker hub was cleared but got a mail saying ‘dockerfile’ not present in the GitHub repo while it clearly was. Sir please look into it we have given so many days to complete this project.\nLooking forward to your reply.\nThank you\nSatvik Sawhney\n23f2003680",
+      "post_number": 8,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-submission-marked-as-fail-despite-having-dockerfile-image/167471/8",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-submission-marked-as-fail-despite-having-dockerfile-image/167471",
+      "reply_to_post_number": 3
+    },
+    {
+      "topic_id": 167471,
+      "post_id": 596517,
+      "username": "carlton",
+      "created_at": "2025-02-18T05:00:31.191Z",
+      "content": "So the reason for the failure is:\nYou had initially put your Dockerfile inside a directory called TDSP-1-main instead of being directly in your repo. (On 15th Feb 1:26AM)\nThen when our automated script checked if students repos met the requirements and yours did not we immediately sent out a warning email as a opportunity for students to make the necessary corrections.\nThen once you realised your mistake, on Feb 17th at 9:11 pm IST i.e yesteday, you changed your repo to put the files in the correct locations.\nThen you finally posted here on Discourse with the image [quote=“21f3002647, post:1, topic:167471”]\nimage250×534 3.92 KB\n[/quote]\nshowing that your files are in the correct place.\nWe do not take into consideration modifications to your repo after the deadline because then we would have to extend that curtesy to all students.\nKind regards",
+      "post_number": 9,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-submission-marked-as-fail-despite-having-dockerfile-image/167471/9",
+      "image_description": "Here's a concise description of the image:\n\nThe image shows a file directory structure, likely for a software project related to Large Language Models (LLMs). The directory contains:\n\n*   Two folders: \"LLM\\_PROJECT1\" and \"\\_\\_pycache\\_\\_\".\n*   Several Python scripts (.py files): \"app.py\", \"datagen.py\", \"evaluate.py\", \"tasksA.py\", and \"tasksB.py\". These likely contain the main application logic, data generation, evaluation, and task-specific code respectively.\n*   A \"Dockerfile,\" suggesting the project can be containerized using Docker for consistent deployment.\n*   A \"LICENSE\" file, indicating the project's licensing terms.\n*   A \"requirements.txt\" file, listing the Python packages and their versions required to run the project.\n\nThe presence of these files suggests that the project aims to work with large language models including defining tasks, data generation, evaluation, and deployment of model using docker.",
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-submission-marked-as-fail-despite-having-dockerfile-image/167471",
+      "reply_to_post_number": 8
+    },
+    {
+      "topic_id": 167471,
+      "post_id": 596587,
+      "username": "21f3002647",
+      "created_at": "2025-02-18T06:35:49.560Z",
+      "content": "@carlton sir\nYes, I corrected my repo at 9:11 PM IST, but I had actually written and submitted my query much earlier at 4 PM. At that time, I wasn’t entirely sure if this was the actual issue, but it looks like it was.\nI understand that the deadline had already passed, and I only saw the email later. I had two GATE papers on the 15th and an interview on the 16th, so I was extremely busy and couldn’t check my emails sooner. However, I had raised my concern well before making the correction, so I’d really appreciate it if my submission could still be considered \nKind regards,\nArnav Mehta\n21f3002647",
+      "post_number": 10,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-submission-marked-as-fail-despite-having-dockerfile-image/167471/10",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-submission-marked-as-fail-despite-having-dockerfile-image/167471",
+      "reply_to_post_number": 9
+    },
+    {
+      "topic_id": 167471,
+      "post_id": 596639,
+      "username": "satviksawhney",
+      "created_at": "2025-02-18T08:28:16.577Z",
+      "content": "Sir, please consider it we have spent a lot of time, in my case just the d in Dockerfile was small that too on remote repository. On my local repository it was Dockerfile only I even have a published docker image as verified by you autated script only. The name of the file on remote repository did not change even after commit it through my local repo, once I read the mail in morning it was only then I realised it wasn’t changed on GitHub repo.\nSir I understand the deadline has passed and I am not asking for a resubmission, I am just asking to consider the already submitted work, just that. It would be really helpful. I just have one commit on my repo that too “Rename dockerfile to Dokerfile” . Sir please attest consider what we have already submitted. I have made no changes as you can verify it too.\nSir it is a humble request to please consider it.\nWarm Regards,\nSatvik Sawhney\n23f2003680\nScreenshot 2025-02-18 at 1.53.10 PM1889×467 54 KB",
+      "post_number": 11,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-submission-marked-as-fail-despite-having-dockerfile-image/167471/11",
+      "image_description": "Here is a description of the image:\n\nThe image displays a file structure or repository listing, possibly from a code hosting platform like GitHub or GitLab. The structure includes the following items:\n\n*   **Business (Folder):** Last modified 2 days ago, with changes related to \"Reconfigured taskB8 taskB9 taskB10\". This suggests work involving task management or configuration.\n\n*   **Operations (Folder):** Last modified 2 days ago, with changes related to \"Reconfigured taskA8 taskA9 taskA10\". Similar to the Business folder, this likely involves task management or configuration.\n\n*   **app (Folder):** Last modified 2 days ago, with changes indicating updates to \"Dockerfile and requirements.txt\". This points to work on containerization and dependency management for an application.\n\n*   **Dockerfile (File):** Last modified yesterday, with the change being \"Rename dockerfile to Dockerfile\". This likely involved correcting the casing of the filename to ensure consistency.\n\n*   **LICENSE (File):** Last modified 3 days ago, identified as \"MIT License\". This indicates the open-source licensing for the project.\n\n*   **README.md (File):** Last modified 3 days ago, with the description \"Project Structure\". This usually contains information about the project, its purpose, and how to use it.\n\nThe timeline (\"2 days ago,\" \"yesterday,\" \"3 days ago\") provides context on the recent activities within the project.\n\nIt is a typical project structure.",
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-submission-marked-as-fail-despite-having-dockerfile-image/167471",
+      "reply_to_post_number": 9
+    }
+  ],
+  "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-submission-marked-as-fail-despite-having-dockerfile-image/167471"
+}

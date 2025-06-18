@@ -1,0 +1,91 @@
+{
+  "topic_id": 168011,
+  "topic_title": "Q3, GA5 not accepting right answer",
+  "posts": [
+    {
+      "topic_id": 168011,
+      "post_id": 598100,
+      "username": "muskan2431",
+      "created_at": "2025-02-21T18:32:17.871Z",
+      "content": "image1337×683 31.9 KB\nIt seems that the question in Graded Assignment 5 for TDS is producing incorrect results despite the same logic working correctly for other variations of the problem. Please check into this question once as I have cross checked with many of the students and chatgpt and all of us faced  this issue in this question. Thanks!\n@carlton @s.anand\ncode to take reference from:\nimport gzip\nimport pandas as pd\nfrom datetime import datetime\n\nlog_path = 's-anand.net-May-2024.gz'\nstart_time = datetime.strptime('01:00:00', '%H:%M:%S').time()\nend_time = datetime.strptime('15:00:00', '%H:%M:%S').time()\nlog_data = []\n\ndef parse_log(line):\n    parts = line.split(' ')\n    log_time = datetime.strptime(parts[3][1:], '%d/%b/%Y:%H:%M:%S')\n    method, url, status = parts[5][1:], parts[6], int(parts[8])\n    return log_time, method, url, status\n\nwith gzip.open(log_path, 'rt') as file:\n    for entry in file:\n        log_time, method, url, status = parse_log(entry)\n        if method == 'GET' and url.startswith('/blog/') and 200 <= status < 300:\n            if log_time.weekday() == 0 and start_time <= log_time.time() < end_time:\n                log_data.append(entry)\n\nprint(f\"Successful GET requests: {len(log_data)}\")\n\nps: I shared code after the deadline hopefully no issues there! ",
+      "post_number": 1,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/q3-ga5-not-accepting-right-answer/168011/1",
+      "image_description": "Here's a precise description of the image, covering the key elements and highlighted sections:\n\n**Overview:**\n\nThe image presents documentation or instructions related to log file analysis. It defines the fields present in each log row, specifies data handling considerations (like timezones and quoting), outlines potential uses of the analysis, and poses a question about extracting specific information from the logs. The final part includes the answer given which is wrong in this case.\n\n**Key Parameters and Topics:**\n\n*   **Log File Fields:** The document defines 11 fields present in each log entry. These include IP address, remote logname, remote user, timestamp, request details (method, URL, protocol), status code, response size, referer URL, user agent, virtual host, and server IP.\n*   **Data Handling:**\n    *   **Timezone:** All data is in GMT-0500.\n    *   **Quoting:** Details on how fields are quoted, especially how to handle escaped quotes.\n    *   **\"this is not quoted\"**: The \"Time\" field is explicitly mentioned as being unquoted. This is likely highlighted because it requires special parsing during data analysis.\n    *   **\"Method\",\"URL\"**: The \"Request\" field consists of three space-separated parts, the method, the URL, and the protocol. The URL visited is highlighted, and it is the main subject of the question.\n*   **Analysis Goals:** The document mentions using log analysis to:\n    *   Optimize infrastructure.\n    *   Strategize content delivery.\n    *   Improve marketing efforts.\n*   **Question:** The image concludes with a question asking for the number of successful GET requests (status code between 200 and 300) for pages under `/blog/` from 1:00 until before 15:00 on Mondays.\n*   **Answer:** The provided answer \"1603\" is marked as incorrect. The exclamation point icon indicates an error or problem.",
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/q3-ga5-not-accepting-right-answer/168011",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 168011,
+      "post_id": 598177,
+      "username": "amitchaurasia",
+      "created_at": "2025-02-22T04:08:00.787Z",
+      "content": "I’m also facing same kind of issue in Q3, GA5, while cross checked answer from different methods getting same result 1603, which is showing incorrect.\nKindly check this issue.\nThanks",
+      "post_number": 4,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/q3-ga5-not-accepting-right-answer/168011/4",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/q3-ga5-not-accepting-right-answer/168011",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 168011,
+      "post_id": 598240,
+      "username": "Aryxn",
+      "created_at": "2025-02-22T05:52:55.677Z",
+      "content": "The same issue is being faced by many students, not only for this condition, but others as well. Please look into it",
+      "post_number": 5,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/q3-ga5-not-accepting-right-answer/168011/5",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/q3-ga5-not-accepting-right-answer/168011",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 168011,
+      "post_id": 598344,
+      "username": "23f2000573",
+      "created_at": "2025-02-22T08:28:29.532Z",
+      "content": "actually i got 130 as answer. but the answer accepted by the portal was 129. i felt like, i have to change one or two numbers front and back, i tried the same before. it worked ",
+      "post_number": 6,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/q3-ga5-not-accepting-right-answer/168011/6",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/q3-ga5-not-accepting-right-answer/168011",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 168011,
+      "post_id": 598383,
+      "username": "muskan2431",
+      "created_at": "2025-02-22T09:57:39.167Z",
+      "content": "For the same question? But it shouldnt be +1 -1 to get the correct answer right.",
+      "post_number": 7,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/q3-ga5-not-accepting-right-answer/168011/7",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/q3-ga5-not-accepting-right-answer/168011",
+      "reply_to_post_number": 6
+    },
+    {
+      "topic_id": 168011,
+      "post_id": 598948,
+      "username": "carlton",
+      "created_at": "2025-02-24T11:48:02.411Z",
+      "content": "Hi @muskan2431 we are running some checks.\nPlease bear with us,\nKind regards",
+      "post_number": 8,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/q3-ga5-not-accepting-right-answer/168011/8",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/q3-ga5-not-accepting-right-answer/168011",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 168011,
+      "post_id": 599493,
+      "username": "carlton",
+      "created_at": "2025-02-25T11:13:32.454Z",
+      "content": "We have determined that some students were affected by GA5 Q3. Whoever we have identified as having received the incorrect assessment will receive 1 mark for that particular question. These are the students that we have identified as been assessed incorrectly:\n\n\n\n\nSN\nEmail\n\n\n\n\n1\n21f1000131@ds.study.iitm.ac.in\n\n\n2\n21f1001484@ds.study.iitm.ac.in\n\n\n3\n21f1001631@ds.study.iitm.ac.in\n\n\n4\n21f1001729@ds.study.iitm.ac.in\n\n\n5\n21f1001890@ds.study.iitm.ac.in\n\n\n6\n21f1002734@ds.study.iitm.ac.in\n\n\n7\n21f1002773@ds.study.iitm.ac.in\n\n\n8\n21f1003135@ds.study.iitm.ac.in\n\n\n9\n21f1003475@ds.study.iitm.ac.in\n\n\n10\n21f1003816@ds.study.iitm.ac.in\n\n\n11\n21f1005422@ds.study.iitm.ac.in\n\n\n12\n21f1005510@ds.study.iitm.ac.in\n\n\n13\n21f1006234@ds.study.iitm.ac.in\n\n\n14\n21f1006309@ds.study.iitm.ac.in\n\n\n15\n21f1006867@ds.study.iitm.ac.in\n\n\n16\n21f2000525@ds.study.iitm.ac.in\n\n\n17\n21f2000913@ds.study.iitm.ac.in\n\n\n18\n21f2000998@ds.study.iitm.ac.in\n\n\n19\n21f2001061@ds.study.iitm.ac.in\n\n\n20\n21f2001080@ds.study.iitm.ac.in\n\n\n21\n21f2001543@ds.study.iitm.ac.in\n\n\n22\n21f3000311@ds.study.iitm.ac.in\n\n\n23\n21f3000355@ds.study.iitm.ac.in\n\n\n24\n21f3000512@ds.study.iitm.ac.in\n\n\n25\n21f3000591@ds.study.iitm.ac.in\n\n\n26\n21f3000687@ds.study.iitm.ac.in\n\n\n27\n21f3000813@ds.study.iitm.ac.in\n\n\n28\n21f3001091@ds.study.iitm.ac.in\n\n\n29\n21f3001161@ds.study.iitm.ac.in\n\n\n30\n21f3001936@ds.study.iitm.ac.in\n\n\n31\n21f3001965@ds.study.iitm.ac.in\n\n\n32\n21f3002158@ds.study.iitm.ac.in\n\n\n33\n21f3002431@ds.study.iitm.ac.in\n\n\n34\n21f3002444@ds.study.iitm.ac.in\n\n\n35\n21f3002647@ds.study.iitm.ac.in\n\n\n36\n21f3002782@ds.study.iitm.ac.in\n\n\n37\n21f3003195@ds.study.iitm.ac.in\n\n\n38\n22ds2000011@ds.study.iitm.ac.in\n\n\n39\n22f1000376@ds.study.iitm.ac.in\n\n\n40\n22f1000821@ds.study.iitm.ac.in\n\n\n41\n22f1000902@ds.study.iitm.ac.in\n\n\n42\n22f1000935@ds.study.iitm.ac.in\n\n\n43\n22f1000989@ds.study.iitm.ac.in\n\n\n44\n22f1001095@ds.study.iitm.ac.in\n\n\n45\n22f1001316@ds.study.iitm.ac.in\n\n\n46\n22f1001391@ds.study.iitm.ac.in\n\n\n47\n22f1001416@ds.study.iitm.ac.in\n\n\n48\n22f1001438@ds.study.iitm.ac.in\n\n\n49\n22f1001542@ds.study.iitm.ac.in\n\n\n50\n22f1001551@ds.study.iitm.ac.in\n\n\n51\n22f1001552@ds.study.iitm.ac.in\n\n\n52\n22f1001862@ds.study.iitm.ac.in\n\n\n53\n22f2000108@ds.study.iitm.ac.in\n\n\n54\n22f2000113@ds.study.iitm.ac.in\n\n\n55\n22f2000116@ds.study.iitm.ac.in\n\n\n56\n22f2000273@ds.study.iitm.ac.in\n\n\n57\n22f2000467@ds.study.iitm.ac.in\n\n\n58\n22f2000813@ds.study.iitm.ac.in\n\n\n59\n22f2000898@ds.study.iitm.ac.in\n\n\n60\n22f2000946@ds.study.iitm.ac.in\n\n\n61\n22f2001041@ds.study.iitm.ac.in\n\n\n62\n22f2001336@ds.study.iitm.ac.in\n\n\n63\n22f2001532@ds.study.iitm.ac.in\n\n\n64\n22f2001590@ds.study.iitm.ac.in\n\n\n65\n22f3000275@ds.study.iitm.ac.in\n\n\n66\n22f3000337@ds.study.iitm.ac.in\n\n\n67\n22f3000419@ds.study.iitm.ac.in\n\n\n68\n22f3000422@ds.study.iitm.ac.in\n\n\n69\n22f3000487@ds.study.iitm.ac.in\n\n\n70\n22f3000563@ds.study.iitm.ac.in\n\n\n71\n22f3000694@ds.study.iitm.ac.in\n\n\n72\n22f3000814@ds.study.iitm.ac.in\n\n\n73\n22f3000819@ds.study.iitm.ac.in\n\n\n74\n22f3000831@ds.study.iitm.ac.in\n\n\n75\n22f3000833@ds.study.iitm.ac.in\n\n\n76\n22f3001050@ds.study.iitm.ac.in\n\n\n77\n22f3001074@ds.study.iitm.ac.in\n\n\n78\n22f3001108@ds.study.iitm.ac.in\n\n\n79\n22f3001278@ds.study.iitm.ac.in\n\n\n80\n22f3001316@ds.study.iitm.ac.in\n\n\n81\n22f3001675@ds.study.iitm.ac.in\n\n\n82\n22f3001688@ds.study.iitm.ac.in\n\n\n83\n22f3001777@ds.study.iitm.ac.in\n\n\n84\n22f3001834@ds.study.iitm.ac.in\n\n\n85\n22f3001930@ds.study.iitm.ac.in\n\n\n86\n22f3001961@ds.study.iitm.ac.in\n\n\n87\n22f3001967@ds.study.iitm.ac.in\n\n\n88\n22f3002011@ds.study.iitm.ac.in\n\n\n89\n22f3002175@ds.study.iitm.ac.in\n\n\n90\n22f3002184@ds.study.iitm.ac.in\n\n\n91\n22f3002236@ds.study.iitm.ac.in\n\n\n92\n22f3002265@ds.study.iitm.ac.in\n\n\n93\n22f3002291@ds.study.iitm.ac.in\n\n\n94\n22f3002307@ds.study.iitm.ac.in\n\n\n95\n22f3002394@ds.study.iitm.ac.in\n\n\n96\n22f3002447@ds.study.iitm.ac.in\n\n\n97\n22f3002498@ds.study.iitm.ac.in\n\n\n98\n22f3002565@ds.study.iitm.ac.in\n\n\n99\n22f3002634@ds.study.iitm.ac.in\n\n\n100\n22f3002712@ds.study.iitm.ac.in\n\n\n101\n22f3002813@ds.study.iitm.ac.in\n\n\n102\n22f3002844@ds.study.iitm.ac.in\n\n\n103\n22f3002948@ds.study.iitm.ac.in\n\n\n104\n22f3003003@ds.study.iitm.ac.in\n\n\n105\n22f3003237@ds.study.iitm.ac.in\n\n\n106\n23ds1000032@ds.study.iitm.ac.in\n\n\n107\n23ds2000055@ds.study.iitm.ac.in\n\n\n108\n23ds2000069@ds.study.iitm.ac.in\n\n\n109\n23ds3000146@ds.study.iitm.ac.in\n\n\n110\n23ds3000149@ds.study.iitm.ac.in\n\n\n111\n23ds3000224@ds.study.iitm.ac.in\n\n\n112\n23f1000232@ds.study.iitm.ac.in\n\n\n113\n23f1000257@ds.study.iitm.ac.in\n\n\n114\n23f1000292@ds.study.iitm.ac.in\n\n\n115\n23f1000587@ds.study.iitm.ac.in\n\n\n116\n23f1000776@ds.study.iitm.ac.in\n\n\n117\n23f1000813@ds.study.iitm.ac.in\n\n\n118\n23f1000844@ds.study.iitm.ac.in\n\n\n119\n23f1001472@ds.study.iitm.ac.in\n\n\n120\n23f1001651@ds.study.iitm.ac.in\n\n\n121\n23f1001684@ds.study.iitm.ac.in\n\n\n122\n23f1001788@ds.study.iitm.ac.in\n\n\n123\n23f1001861@ds.study.iitm.ac.in\n\n\n124\n23f1002075@ds.study.iitm.ac.in\n\n\n125\n23f1002114@ds.study.iitm.ac.in\n\n\n126\n23f1002279@ds.study.iitm.ac.in\n\n\n127\n23f1002345@ds.study.iitm.ac.in\n\n\n128\n23f1002362@ds.study.iitm.ac.in\n\n\n129\n23f1002535@ds.study.iitm.ac.in\n\n\n130\n23f1002563@ds.study.iitm.ac.in\n\n\n131\n23f1002586@ds.study.iitm.ac.in\n\n\n132\n23f1002630@ds.study.iitm.ac.in\n\n\n133\n23f1002929@ds.study.iitm.ac.in\n\n\n134\n23f1003000@ds.study.iitm.ac.in\n\n\n135\n23f1003115@ds.study.iitm.ac.in\n\n\n136\n23f2000119@ds.study.iitm.ac.in\n\n\n137\n23f2000273@ds.study.iitm.ac.in\n\n\n138\n23f2000762@ds.study.iitm.ac.in\n\n\n139\n23f2000794@ds.study.iitm.ac.in\n\n\n140\n23f2000822@ds.study.iitm.ac.in\n\n\n141\n23f2000926@ds.study.iitm.ac.in\n\n\n142\n23f2000942@ds.study.iitm.ac.in\n\n\n143\n23f2001274@ds.study.iitm.ac.in\n\n\n144\n23f2001347@ds.study.iitm.ac.in\n\n\n145\n23f2001494@ds.study.iitm.ac.in\n\n\n146\n23f2001529@ds.study.iitm.ac.in\n\n\n147\n23f2001539@ds.study.iitm.ac.in\n\n\n148\n23f2001661@ds.study.iitm.ac.in\n\n\n149\n23f2001960@ds.study.iitm.ac.in\n\n\n150\n23f2001992@ds.study.iitm.ac.in\n\n\n151\n23f2002034@ds.study.iitm.ac.in\n\n\n152\n23f2002121@ds.study.iitm.ac.in\n\n\n153\n23f2002865@ds.study.iitm.ac.in\n\n\n154\n23f2002939@ds.study.iitm.ac.in\n\n\n155\n23f2003529@ds.study.iitm.ac.in\n\n\n156\n23f2003751@ds.study.iitm.ac.in\n\n\n157\n23f2003893@ds.study.iitm.ac.in\n\n\n158\n23f2004115@ds.study.iitm.ac.in\n\n\n159\n23f2004244@ds.study.iitm.ac.in\n\n\n160\n23f2004366@ds.study.iitm.ac.in\n\n\n161\n23f2004443@ds.study.iitm.ac.in\n\n\n162\n23f2004473@ds.study.iitm.ac.in\n\n\n163\n23f2004510@ds.study.iitm.ac.in\n\n\n164\n23f2004637@ds.study.iitm.ac.in\n\n\n165\n23f2004770@ds.study.iitm.ac.in\n\n\n166\n23f2004793@ds.study.iitm.ac.in\n\n\n167\n23f2004936@ds.study.iitm.ac.in\n\n\n168\n23f2004979@ds.study.iitm.ac.in\n\n\n169\n23f2005010@ds.study.iitm.ac.in\n\n\n170\n23f2005193@ds.study.iitm.ac.in\n\n\n171\n23f2005325@ds.study.iitm.ac.in\n\n\n172\n23f2005398@ds.study.iitm.ac.in\n\n\n173\n23f2005474@ds.study.iitm.ac.in\n\n\n174\n23f2005525@ds.study.iitm.ac.in\n\n\n175\n23f2005665@ds.study.iitm.ac.in\n\n\n176\n23f2005701@ds.study.iitm.ac.in\n\n\n177\n23f2005706@ds.study.iitm.ac.in\n\n\n178\n23f2005738@ds.study.iitm.ac.in\n\n\n179\n23f3000975@ds.study.iitm.ac.in\n\n\n180\n23f3001271@ds.study.iitm.ac.in\n\n\n181\n23f3001462@ds.study.iitm.ac.in\n\n\n182\n23f3001572@ds.study.iitm.ac.in\n\n\n183\n23f3001745@ds.study.iitm.ac.in\n\n\n184\n23f3001752@ds.study.iitm.ac.in\n\n\n185\n23f3001764@ds.study.iitm.ac.in\n\n\n186\n23f3001848@ds.study.iitm.ac.in\n\n\n187\n23f3002196@ds.study.iitm.ac.in\n\n\n188\n23f3002427@ds.study.iitm.ac.in\n\n\n189\n23f3002537@ds.study.iitm.ac.in\n\n\n190\n23f3002643@ds.study.iitm.ac.in\n\n\n191\n23f3003016@ds.study.iitm.ac.in\n\n\n192\n23f3003027@ds.study.iitm.ac.in\n\n\n193\n23f3003871@ds.study.iitm.ac.in\n\n\n194\n23f3004013@ds.study.iitm.ac.in\n\n\n195\n23f3004024@ds.study.iitm.ac.in\n\n\n196\n23f3004066@ds.study.iitm.ac.in\n\n\n197\n23f3004134@ds.study.iitm.ac.in\n\n\n198\n23f3004230@ds.study.iitm.ac.in\n\n\n199\n23f3004238@ds.study.iitm.ac.in\n\n\n200\n23f3004264@ds.study.iitm.ac.in\n\n\n201\n23f3004394@ds.study.iitm.ac.in\n\n\n202\n23f3004444@ds.study.iitm.ac.in\n\n\n203\n24ds1000079@ds.study.iitm.ac.in\n\n\n204\n24ds2000062@ds.study.iitm.ac.in\n\n\n205\n24ds2000101@ds.study.iitm.ac.in\n\n\n206\n24ds2000112@ds.study.iitm.ac.in\n\n\n207\n24ds3000028@ds.study.iitm.ac.in\n\n\n208\n24ds3000031@ds.study.iitm.ac.in\n\n\n209\n24ds3000074@ds.study.iitm.ac.in\n\n\n210\n24f1000010@ds.study.iitm.ac.in\n\n\n211\n24f1000400@ds.study.iitm.ac.in\n\n\n212\n24f1000784@ds.study.iitm.ac.in\n\n\n213\n24f1000925@ds.study.iitm.ac.in\n\n\n214\n24f1001396@ds.study.iitm.ac.in\n\n\n215\n24f1001439@ds.study.iitm.ac.in\n\n\n216\n24f1001520@ds.study.iitm.ac.in\n\n\n217\n24f1002390@ds.study.iitm.ac.in\n\n\n218\n24f1002474@ds.study.iitm.ac.in\n\n\n219\n24f2000994@ds.study.iitm.ac.in\n\n\n220\n24f2002746@ds.study.iitm.ac.in\n\n\n221\n24f2003375@ds.study.iitm.ac.in\n\n\n222\n24f2004863@ds.study.iitm.ac.in\n\n\n\nKind regards,\nTDS Team",
+      "post_number": 9,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/q3-ga5-not-accepting-right-answer/168011/9",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/q3-ga5-not-accepting-right-answer/168011",
+      "reply_to_post_number": 8
+    }
+  ],
+  "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/q3-ga5-not-accepting-right-answer/168011"
+}

@@ -1,0 +1,31 @@
+{
+  "topic_id": 168143,
+  "topic_title": "My score are still not updated",
+  "posts": [
+    {
+      "topic_id": 168143,
+      "post_id": 598476,
+      "username": "23f1000879",
+      "created_at": "2025-02-22T12:48:54.513Z",
+      "content": "my score from week 2 to week 5 are still showing not submitted.\nScreenshot 2025-02-22 1812571144×704 30.8 KB",
+      "post_number": 1,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/my-score-are-still-not-updated/168143/1",
+      "image_description": "Here's a precise description of the image, highlighting key elements and parameters:\n\n**Description:**\n\nThe image shows a web interface, likely for an online course or learning management system. It's divided into modules, presented as expandable sections.\n\n*   **Structure:**\n    *   Module 1: Development Tools (collapsed)\n    *   Module 2: Deployment Tools (expanded)\n    *   Module 3: Large Language Models (collapsed)\n    *   Project 1 (collapsed)\n    *   Module 4: Data Sourcing (collapsed)\n    *   Module 5: Data Preparation (collapsed)\n\n*   **Expanded Module 2 Details:**\n    *   Assignment section, specifically showing \"Graded Assignment 2\" with a due date of \"2 Feb 2025.\"\n    *   A status indicator of \"Not Submitted.\" This indicates that the assignment is either incomplete or has not been submitted yet.\n    *   A table showing Your Score, Peer Average, and Median Score. All these fields are currently empty (\"-\") for this assignment.\n\n**Highlighted Parameters and Their Significance:**\n\n*   **\"Not Submitted\" Highlight:** This is a key indicator that the assignment needs attention. It likely serves as a reminder to the user to complete and submit the assignment before the due date.\n*   **Due Date \"2 Feb 2025\":** This parameter is crucial for time management. Students can easily track assignment deadlines.\n*   **Empty Score Fields:**  The \"Your Score,\" \"Peer Average,\" and \"Median Score\" being blank signify that either the assignment hasn't been graded yet or the user hasn't submitted it, and thus no scores are available. Once graded, these fields would populate with numeric values.\n\n**Topics covered in modules:** Development Tools, Deployment Tools, Large Language Models, Data Sourcing, and Data Preparation.",
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/my-score-are-still-not-updated/168143",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 168143,
+      "post_id": 598486,
+      "username": "carlton",
+      "created_at": "2025-02-22T13:06:55.864Z",
+      "content": "@23f1000879 This is not the screen where you see your scores for Tools in Data Science. Its only shown on dashboard. Can you send a screenshot of your dashboard. Thanks\nKind regards",
+      "post_number": 2,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/my-score-are-still-not-updated/168143/2",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/my-score-are-still-not-updated/168143",
+      "reply_to_post_number": null
+    }
+  ],
+  "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/my-score-are-still-not-updated/168143"
+}

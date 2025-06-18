@@ -1,0 +1,43 @@
+{
+  "topic_id": 166303,
+  "topic_title": "LLM what rocket science going on here",
+  "posts": [
+    {
+      "topic_id": 166303,
+      "post_id": 590718,
+      "username": "21f3002112",
+      "created_at": "2025-02-05T05:04:10.385Z",
+      "content": "The lectures primarily focus on surface-level explanations without ensuring a strong foundational understanding of the topics. Key concepts, such as Large Language Models (LLMs) and related technologies, are not explained in a structured manner, making it difficult for students to follow.",
+      "post_number": 1,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/llm-what-rocket-science-going-on-here/166303/1",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/llm-what-rocket-science-going-on-here/166303",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 166303,
+      "post_id": 590720,
+      "username": "21f3002112",
+      "created_at": "2025-02-05T05:06:15.787Z",
+      "content": "@carlton sir i watch live session recording , but still not getting some useful from it , I am talking about week 3 content in llm , these words are never heard by us so please try to tech from basic things please . At least tell us , what is llm and what is use of , everything is going to above of our head .",
+      "post_number": 2,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/llm-what-rocket-science-going-on-here/166303/2",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/llm-what-rocket-science-going-on-here/166303",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 166303,
+      "post_id": 591055,
+      "username": "carlton",
+      "created_at": "2025-02-06T05:49:08.446Z",
+      "content": "Hi Hari,\nThe goal of the course was never to go deep into specific technologies, with perhaps the exception of LLMs as major tooling capability for data science. Due to the volume of the content in the first 3 weeks it was decided to at least get students sufficient information to be able to do the Graded Assignments. One of the criticisms we received last term was that the sessions were too slow because we were covering from the very basics. So it was a conscious decision to speed up and shorten the explanations. Of course this is always difficult to get right because we respond to students in sessions. This is why attending the sessions is more valuable than watching the sessions. We cannot effectively gauge what level to pitch at if the audience is silent or not involved. We can only guess the level of the vast silent mass of students. The quality of sessions only improve when the sessions are interactive and well attended.\nHave you watched this session in particular?\n\n\n\n\nIf thats insufficient for you last term we did a 2hr 48 min session on just introducing it\n\n\n\n\nfollowed by another 2 hour detailed explanation of the more advanced use cases\n\n\n\n\nBut of course does everyone want to watch 5.5 hours of sessions to understand it? That depends on the student.\nUltimately the best you can get out of sessions is by actually attending them because only then can we address gaps in understanding.\nKind regards",
+      "post_number": 3,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/llm-what-rocket-science-going-on-here/166303/3",
+      "image_description": "Here is a precise description of the image:\n\nThe image is a graphic design, possibly for an educational presentation or course. It features the text \"Week 3 SESSION 1\" in bold, white letters, centered on a navy blue rectangular shape. The background behind the text is filled with various colorful, stylized icons representing data, technology, and analytics. These icons include graphs, charts, circuits, a globe, writing utensils, and other symbols associated with data analysis. The background is framed by a light orange border. The text is highlighted to draw attention to the specific week and session number within a larger course or program. The overall style is modern and playful, suggesting an engaging learning experience.",
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/llm-what-rocket-science-going-on-here/166303",
+      "reply_to_post_number": 2
+    }
+  ],
+  "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/llm-what-rocket-science-going-on-here/166303"
+}

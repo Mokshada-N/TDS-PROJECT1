@@ -1,0 +1,31 @@
+{
+  "topic_id": 168017,
+  "topic_title": "GA5 Score Not Reflecting in The Page After Deadline",
+  "posts": [
+    {
+      "topic_id": 168017,
+      "post_id": 598114,
+      "username": "23f3004238",
+      "created_at": "2025-02-21T19:25:35.401Z",
+      "content": "Screenshot 2025-02-22 at 12.41.09 AM2940×1912 443 KB\nIs this something to worry about?",
+      "post_number": 1,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga5-score-not-reflecting-in-the-page-after-deadline/168017/1",
+      "image_description": "Here's a precise description of the image, including the highlighted elements:\n\n**Overall Description:**\n\nThe image shows a web page for an online quiz or assignment titled \"TDS 2025 Jan GA5 - Data Preparation.\"  It features instructions, user login information, and a section displaying recent saves. The page has a dark theme.\n\n**Key Parameters and Topics:**\n\n*   **Course/Assignment:** TDS 2025 Jan GA5 - Data Preparation\n*   **Due Date:** Ends at Fri, 21 Feb, 2025, 11:59 pm IST\n*   **Score:**  The initial score is 0.\n*   **User Login:**  The user is logged in as 2313004238@ds.study.iitm.ac.in.\n*   **Recent Saves:** The recent saves are listed with timestamps and scores. This section indicates the system keeps track of progress.\n*   **URL:** The URL of the page is exam.sanand.workers.dev/tds-2025-01-ga5\n\n**Highlighted Elements and Their Significance:**\n\n*   **Red Banner at the Top:** The red banner highlights the end date and time (Fri, 21 Feb, 2025, 11:59 pm IST).  This draws the user's attention to the deadline.  It also displays the current score and links for \"Check All\" and \"Save\".\n*   **\"Check\" (within Instructions):**  This is likely a button that allows the user to check the correctness of their answers. The instruction emphasizes checking answers regularly.\n*   **\"Save\" (within Instructions):**  This is likely a button that allows the user to save their progress. The instruction emphasizes saving regularly.\n*   **\"Have questions? Join the discussion on Discourse\":** This button/link provides a means for the user to ask questions and engage with a discussion forum for the quiz.\n*   **\"Recent saves\" (most recent is your official score):** This highlights that the most recent score is the official one.\n*   **Reload links:** Each reload link allows the user to reload a previous saved state.\n\n**Instructions Breakdown:**\n\nThe instructions provide the following guidance:\n\n1.  Use provided materials or skip ahead if you know the answer.\n2.  Check answers regularly with the \"Check\" button.\n3.  Save work regularly with the \"Save\" button.\n4.  Reloading the page is permitted, and answers are saved client-side.\n5.  Browser issues might require disabling security restrictions or trying another browser.\n6.  Any resources are allowed (Internet, AI tools, friends, etc.).\n7.  The code is \"hackable\" and modifying it to get answers is permitted (within the context of the quiz).",
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga5-score-not-reflecting-in-the-page-after-deadline/168017",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 168017,
+      "post_id": 598162,
+      "username": "carlton",
+      "created_at": "2025-02-22T03:16:58.662Z",
+      "content": "This is nothing to worry about because as you can see in the Recent saves section, it has your score history. We have your entire submission history because we log that.\nKind regards",
+      "post_number": 2,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga5-score-not-reflecting-in-the-page-after-deadline/168017/2",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga5-score-not-reflecting-in-the-page-after-deadline/168017",
+      "reply_to_post_number": null
+    }
+  ],
+  "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga5-score-not-reflecting-in-the-page-after-deadline/168017"
+}

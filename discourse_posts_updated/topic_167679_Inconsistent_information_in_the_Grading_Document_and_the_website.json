@@ -1,0 +1,31 @@
+{
+  "topic_id": 167679,
+  "topic_title": "Inconsistent information in the Grading Document and the website",
+  "posts": [
+    {
+      "topic_id": 167679,
+      "post_id": 596885,
+      "username": "23f1003186",
+      "created_at": "2025-02-19T06:13:13.570Z",
+      "content": "The deadlines mentioned in the Grading Document provided and the TDS website (s-anand.net) are different. Project-1’s deadline was 15 Feb, it was then postponed to the 16th of Feb. Can this be reflected here?\nNot affecting me particularly, however, it’s good to be consistent across channels of communication to the students…\ngrab-IIT-Madras--Microsoft Edge_at_11.39.08_on__19-02-2025__0032971484×1168 161 KB",
+      "post_number": 1,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/inconsistent-information-in-the-grading-document-and-the-website/167679/1",
+      "image_description": "Here's a precise description of the image:\n\n**Overview:**\n\nThe image presents information regarding the assessment and grading scheme for a \"Tools in Data Science\" course within a Diploma in Data Science program. It outlines exam dates, eligibility criteria, and the weighting of different components in the final grade calculation.\n\n**Key Information:**\n\n*   **Course Title:** Tools in Data Science (Diploma in DS)\n*   **No Centre Quizzes:** There are no quizzes conducted in centres for this course.\n*   **End Term Exam:** The final exam is scheduled for April 13th, 2025, and must be attended in person at designated centers. This date is highlighted to indicate it is important and needs to be taken in account.\n*   **Remote Online Exam 1 (ROE1):** Scheduled for Sunday, March 2, 2025, from 13:00 to 14:00 IST.\n*   **Eligibility for End Term Exam:** Requires an average score of at least 40/100 in the best 2 out of the first 5 weekly assessments.\n*   **Eligibility for Course Grade:** Requires attending the end-term exam.\n\n**Assessment Breakdown (Table):**\n\n| Assessment                   | Open Date                          | Submission Date                   | Peer Review Date                |\n| :--------------------------- | :--------------------------------- | :-------------------------------- | :------------------------------ |\n| ROE1 (Remote Online Exam 1)  | Sunday, March 2, 2025 13:00 Hrs IST | Sunday, March 2, 2025 13:45 Hrs IST | -                              |\n| P1 (Take Home Project 1)     | Friday, January 17 February 7, 2025| Monday Saturday February 15 47, 2025| Tuesday, February 25, 2025 |\n| P2 (Take Home Project 2)     | Friday, February 21 28, 2025     | Wednesday Monday, March 15 12, 2025| Monday, March 17, 2025 |\n\n**Grading Scheme:**\n\n*   **GAA:** Score in the best 4 of 7 weekly assignments on the portal (open internet, MCQs).\n*   **F:** Final end-term exam (no internet, in-person, mandatory).\n*   **P1 & P2:** Take-home projects with two components: submissions and peer reviews (weightage 80:20).\n\n**Final Course Score Calculation:**\n\n*   *Formula 1:* T = 0.1GAA + 0.2 ROE1 + 0.2 P1 + 0.2P2 + 0.3F\n*   *Formula 2:* T = 0.15GAA + 0.2 ROE1 + 0.2 P1 + 0.2P2 + 0.25F\n\n**Important Parameters and Topics:**\n\n*   **Dates and Timings:** Specific dates and times for exams and project submissions are crucial.\n*   **Eligibility Criteria:** Conditions to be met to attend the end-term exam and receive a course grade.\n*   **Weightage:** The weighting of each assessment component (GAA, ROE1, P1, P2, F) in the final grade.\n*   **Exam Format:** Information about the online exams (open internet, MCQs) and the in-person, mandatory final exam.\n*   **Project Components:** Emphasis on both submissions and peer reviews for projects P1 and P2.\n*   **Course Structure:** Overview of all elements that will form the course.\n\n**Highlighting Rationale:**\n\nThe end term exam date is highlighted in red to draw attention to this crucial deadline, ensuring students are aware of the date and the requirement to attend in person.",
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/inconsistent-information-in-the-grading-document-and-the-website/167679",
+      "reply_to_post_number": null
+    },
+    {
+      "topic_id": 167679,
+      "post_id": 597385,
+      "username": "carlton",
+      "created_at": "2025-02-20T11:41:31.854Z",
+      "content": "@23f1003186\nThanks for letting us know (it might take a little while to fix)\nKind regards",
+      "post_number": 2,
+      "post_url": "https://discourse.onlinedegree.iitm.ac.in/t/inconsistent-information-in-the-grading-document-and-the-website/167679/2",
+      "image_description": null,
+      "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/inconsistent-information-in-the-grading-document-and-the-website/167679",
+      "reply_to_post_number": null
+    }
+  ],
+  "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/inconsistent-information-in-the-grading-document-and-the-website/167679"
+}
