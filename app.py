@@ -49,8 +49,8 @@ import os
 # Load env variables from .env
 load_dotenv()
 
-AIPROXY_URL = "https://aiproxy.sanand.workers.dev/openai/v1/chat/completions"
-AIPROXY_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjI0ZjEwMDA2NTZAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.JogfYgwBHNTixeIqVUq-Pdh3xgnQhi7AC9h6_0nixvU"
+AIPROXY_URL = os.getenv("AIPROXYURL")
+AIPROXY_TOKEN = os.getenv("AIPROXY_TOKEN")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 if not AIPROXY_URL or not AIPROXY_TOKEN:
